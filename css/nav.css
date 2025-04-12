@@ -28,7 +28,13 @@ header{
     display: flex;
     /* align-items: left; */
     /* margin-right: 400px; */
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Arial Rounded MT';
+    src: url('/fonts/ArialRoundedMTBold.eot');
+    src: url('/fonts/ArialRoundedMTBold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/ArialRoundedMTBold.woff2') format('woff2'),
+        url('/fonts/ArialRoundedMTBold.woff') format('woff'),
+        url('/fonts/ArialRoundedMTBold.ttf') format('truetype'),
+        url('/fonts/ArialRoundedMTBold.svg#ArialRoundedMTBold') format('svg');
 
 }
 
@@ -45,7 +51,7 @@ header{
     border-radius: 2px;
     margin-right: 5px; 
     float: left;
-    color: yellow;
+    color: #ffd736;
     transition: 0.3s ease;
 }
 
@@ -62,7 +68,7 @@ header{
     border-radius: 2px;
     margin-right: 5px; 
     float: left;
-    color: yellow;
+    color: #ffd736;
     transition: 0.3s ease;
 }
 
@@ -82,7 +88,7 @@ header{
 @media(min-width: 862px){
     .menu li a {
         /* background-color: yellow;  */
-        color: yellow; 
+        color: #ffd736; 
         padding: 1px;
         margin: 5px;
     }
